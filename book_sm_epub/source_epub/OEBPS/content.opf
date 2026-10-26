@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier opf:scheme="UUID" id="BookId">urn:uuid:5d518d99-bc7e-4d74-aa88-f1d682bd856e</dc:identifier>
+    <dc:language>en</dc:language>
+    <dc:title>[Title here]</dc:title>
+    <meta name="Sigil version" content="2.8.1"/>
+    <dc:date opf:event="modification" xmlns:opf="http://www.idpf.org/2007/opf">2026-10-29</dc:date>
+    <meta name="cover" content="test_cover_01.png"/>
+  </metadata>
+  <manifest>
+    <item id="Section0001.xhtml" href="Text/preface.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="Image0001.svg" href="Images/cover.svg" media-type="image/svg+xml"/>
+    <item id="test_cover_01.png" href="Images/test_cover_01.png" media-type="image/png"/>
+    <item id="cover.xhtml" href="Text/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x4da31450-34d3-438c-8edb-cc0c7f90a315" href="Text/introduction_overview.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Style0001.css" href="Styles/sgc-toc.css" media-type="text/css"/>
+    <item id="TOC.xhtml" href="Text/TOC.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x8c95a438-716d-4cd9-994b-50caab175bc2" href="Text/mathematical_definitions.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x1759a7a8-e114-4191-8213-cea6fb54d506" href="Text/floating_point_arithmetic.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x3014ce98-f120-4b66-933e-2883e903f9d2" href="Text/integer_arithmetic.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x1fde25ba-36e3-4c13-b65a-32141ee4ffbe" href="Text/filters_control_system_elements.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x0a8ce46e-ee0d-4a9f-8773-0b7cce6ffb76" href="Text/state_space_bugs.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x9a2e2367-e925-49ba-a035-550727d1a915" href="Text/concurrency_bugs.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x90026ce6-88fb-4cad-a401-6d04eaa833aa" href="Text/timed_automata.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xd9ee9a80-fb24-4783-8f8a-4fc9422df3bb" href="Text/implementation_of_state_machines.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xa1afa5cb-cc81-4eca-9410-6d2a7f4b56f2" href="Text/holy_grail.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x0581d8ed-1ec9-47d2-a8bb-99e90b400805" href="Text/unit_testing_code_coverage.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x288a4a56-845d-47e1-9e57-10e74d97b33a" href="Text/a2d_conversion.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xe7babb26-6485-4b62-b6c4-be8656efc667" href="Text/references.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x41736d7b-eae3-4b7b-8403-9fe516c5f76e" href="Styles/sgc-index.css" media-type="text/css"/>
+    <item id="Index.xhtml" href="Text/index.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x0b5a63ae-48c8-4749-8e15-1f0e712cc6bf" href="Text/bad_management.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x74ecf9c3-21ff-4c44-9bfc-e068a65fe558" href="Text/insektengericht.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x892d8533-7019-46e3-b320-9524f75f6604" href="Text/acknowledgements.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x86380a62-bc0a-46fa-a8d0-8fcf68c50163" href="Text/c_cpp_asm_languages.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x34471005-a4d0-469b-8fbb-6a88368b0911" href="Text/boolean_algebra.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x123cf3ef-bfa4-446a-852c-69f36cfe7ee7" href="Text/misra.xhtml" media-type="application/xhtml+xml"/>
+    <item id="xc43bb1b1-8823-45bf-8803-77a078ba9c1d" href="Text/coding_standards.xhtml" media-type="application/xhtml+xml"/>
+    <item id="x31137869-cbaa-43e3-abd5-6b276966b3dd" href="Text/emts_tool.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml"/>
+    <itemref idref="TOC.xhtml"/>
+    <itemref idref="Section0001.xhtml"/>
+    <itemref idref="x892d8533-7019-46e3-b320-9524f75f6604"/>
+    <itemref idref="x4da31450-34d3-438c-8edb-cc0c7f90a315"/>
+    <itemref idref="xa1afa5cb-cc81-4eca-9410-6d2a7f4b56f2"/>
+    <itemref idref="x8c95a438-716d-4cd9-994b-50caab175bc2"/>
+    <itemref idref="x1759a7a8-e114-4191-8213-cea6fb54d506"/>
+    <itemref idref="x3014ce98-f120-4b66-933e-2883e903f9d2"/>
+    <itemref idref="x1fde25ba-36e3-4c13-b65a-32141ee4ffbe"/>
+    <itemref idref="x34471005-a4d0-469b-8fbb-6a88368b0911"/>
+    <itemref idref="x90026ce6-88fb-4cad-a401-6d04eaa833aa"/>
+    <itemref idref="x9a2e2367-e925-49ba-a035-550727d1a915"/>
+    <itemref idref="x0a8ce46e-ee0d-4a9f-8773-0b7cce6ffb76"/>
+    <itemref idref="x74ecf9c3-21ff-4c44-9bfc-e068a65fe558"/>
+    <itemref idref="xd9ee9a80-fb24-4783-8f8a-4fc9422df3bb"/>
+    <itemref idref="x86380a62-bc0a-46fa-a8d0-8fcf68c50163"/>
+    <itemref idref="xc43bb1b1-8823-45bf-8803-77a078ba9c1d"/>
+    <itemref idref="x123cf3ef-bfa4-446a-852c-69f36cfe7ee7"/>
+    <itemref idref="x0581d8ed-1ec9-47d2-a8bb-99e90b400805"/>
+    <itemref idref="x288a4a56-845d-47e1-9e57-10e74d97b33a"/>
+    <itemref idref="x0b5a63ae-48c8-4749-8e15-1f0e712cc6bf"/>
+    <itemref idref="xe7babb26-6485-4b62-b6c4-be8656efc667"/>
+    <itemref idref="Index.xhtml"/>
+    <itemref idref="x31137869-cbaa-43e3-abd5-6b276966b3dd"/>
+  </spine>
+  <guide>
+    <reference type="cover" title="Cover" href="Text/cover.xhtml"/>
+    <reference type="toc" title="Table of Contents" href="Text/TOC.xhtml"/>
+    <reference type="index" title="Index" href="Text/index.xhtml"/>
+  </guide>
+</package>

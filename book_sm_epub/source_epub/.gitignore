@@ -1,0 +1,6 @@
+#Do not commit the E-book (a generated file).
+dta_embedded_book_sm.epub
+
+#Do not commit the conversion logs from tools.
+dta_embedded_book_sm-conversionLog.csv
+

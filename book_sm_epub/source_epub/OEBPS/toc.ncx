@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+   "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:5d518d99-bc7e-4d74-aa88-f1d682bd856e"/>
+    <meta name="dtb:depth" content="3"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>[Title here]</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint-1" playOrder="1">
+      <navLabel>
+        <text>Preface</text>
+      </navLabel>
+      <content src="Text/preface.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-2" playOrder="2">
+      <navLabel>
+        <text>Acknowledgements</text>
+      </navLabel>
+      <content src="Text/acknowledgements.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-3" playOrder="3">
+      <navLabel>
+        <text>Introduction and Overview</text>
+      </navLabel>
+      <content src="Text/introduction_overview.xhtml"/>
+      <navPoint id="navPoint-4" playOrder="4">
+        <navLabel>
+          <text>Definition of Embedded System</text>
+        </navLabel>
+        <content src="Text/introduction_overview.xhtml#sigil_toc_id_8"/>
+      </navPoint>
+      <navPoint id="navPoint-5" playOrder="5">
+        <navLabel>
+          <text>Definition of Embedded Software</text>
+        </navLabel>
+        <content src="Text/introduction_overview.xhtml#sigil_toc_id_9"/>
+      </navPoint>
+      <navPoint id="navPoint-6" playOrder="6">
+        <navLabel>
+          <text>Definition of Microcontroller</text>
+        </navLabel>
+        <content src="Text/introduction_overview.xhtml#sigil_toc_id_10"/>
+      </navPoint>
+      <navPoint id="navPoint-7" playOrder="7">
+        <navLabel>
+          <text>Evolution of the Microcontroller</text>
+        </navLabel>
+        <content src="Text/introduction_overview.xhtml#sigil_toc_id_11"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-8" playOrder="8">
+      <navLabel>
+        <text>The Holy Grail of Embedded Software</text>
+      </navLabel>
+      <content src="Text/holy_grail.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-9" playOrder="9">
+      <navLabel>
+        <text>Mathematical Definitions</text>
+      </navLabel>
+      <content src="Text/mathematical_definitions.xhtml"/>
+      <navPoint id="navPoint-10" playOrder="10">
+        <navLabel>
+          <text>Mathematical Definitions</text>
+        </navLabel>
+        <content src="Text/mathematical_definitions.xhtml#sigil_toc_id_1"/>
+        <navPoint id="navPoint-11" playOrder="11">
+          <navLabel>
+            <text>Use of Greek Letters</text>
+          </navLabel>
+          <content src="Text/mathematical_definitions.xhtml#sigil_toc_id_2"/>
+        </navPoint>
+        <navPoint id="navPoint-12" playOrder="12">
+          <navLabel>
+            <text>Sets of Numbers</text>
+          </navLabel>
+          <content src="Text/mathematical_definitions.xhtml#sigil_toc_id_3"/>
+        </navPoint>
+        <navPoint id="navPoint-13" playOrder="13">
+          <navLabel>
+            <text>Floor, Ceiling, and Round Functions</text>
+          </navLabel>
+          <content src="Text/mathematical_definitions.xhtml#sigil_toc_id_4"/>
+        </navPoint>
+        <navPoint id="navPoint-14" playOrder="14">
+          <navLabel>
+            <text>Matrices and Vectors</text>
+          </navLabel>
+          <content src="Text/mathematical_definitions.xhtml#sigil_toc_id_5"/>
+        </navPoint>
+        <navPoint id="navPoint-15" playOrder="15">
+          <navLabel>
+            <text>Matrix Operations</text>
+          </navLabel>
+          <content src="Text/mathematical_definitions.xhtml#sigil_toc_id_6"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-16" playOrder="16">
+        <navLabel>
+          <text></text>
+        </navLabel>
+        <content src="Text/mathematical_definitions.xhtml#sigil_toc_id_7"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-17" playOrder="17">
+      <navLabel>
+        <text>Floating-Point Arithmetic</text>
+      </navLabel>
+      <content src="Text/floating_point_arithmetic.xhtml"/>
+      <navPoint id="navPoint-18" playOrder="18">
+        <navLabel>
+          <text>Definition of Floating-Point Number</text>
+        </navLabel>
+        <content src="Text/floating_point_arithmetic.xhtml#sigil_toc_id_12"/>
+      </navPoint>
+      <navPoint id="navPoint-19" playOrder="19">
+        <navLabel>
+          <text>Floating-Point Number Formats</text>
+        </navLabel>
+        <content src="Text/floating_point_arithmetic.xhtml#sigil_toc_id_13"/>
+      </navPoint>
+      <navPoint id="navPoint-20" playOrder="20">
+        <navLabel>
+          <text>Floating-Point Numbers as a Representation of Real Numbers</text>
+        </navLabel>
+        <content src="Text/floating_point_arithmetic.xhtml#sigil_toc_id_14"/>
+      </navPoint>
+      <navPoint id="navPoint-21" playOrder="21">
+        <navLabel>
+          <text>Floating-Point Units</text>
+        </navLabel>
+        <content src="Text/floating_point_arithmetic.xhtml#sigil_toc_id_15"/>
+      </navPoint>
+      <navPoint id="navPoint-22" playOrder="22">
+        <navLabel>
+          <text>Floating-Point Algorithms</text>
+        </navLabel>
+        <content src="Text/floating_point_arithmetic.xhtml#sigil_toc_id_16"/>
+      </navPoint>
+      <navPoint id="navPoint-23" playOrder="23">
+        <navLabel>
+          <text>Arguments For and Against Floating-Point Arithmetic in Embedded Software</text>
+        </navLabel>
+        <content src="Text/floating_point_arithmetic.xhtml#sigil_toc_id_17"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-24" playOrder="24">
+      <navLabel>
+        <text>Integer Arithmetic</text>
+      </navLabel>
+      <content src="Text/integer_arithmetic.xhtml"/>
+      <navPoint id="navPoint-25" playOrder="25">
+        <navLabel>
+          <text>Definition of an Integer</text>
+        </navLabel>
+        <content src="Text/integer_arithmetic.xhtml#sigil_toc_id_18"/>
+      </navPoint>
+      <navPoint id="navPoint-26" playOrder="26">
+        <navLabel>
+          <text>Representation of Integers</text>
+        </navLabel>
+        <content src="Text/integer_arithmetic.xhtml#sigil_toc_id_19"/>
+      </navPoint>
+      <navPoint id="navPoint-27" playOrder="27">
+        <navLabel>
+          <text>Typical Integer Machine Instructions</text>
+        </navLabel>
+        <content src="Text/integer_arithmetic.xhtml#sigil_toc_id_20"/>
+      </navPoint>
+      <navPoint id="navPoint-28" playOrder="28">
+        <navLabel>
+          <text>Integer Overflow</text>
+        </navLabel>
+        <content src="Text/integer_arithmetic.xhtml#sigil_toc_id_21"/>
+      </navPoint>
+      <navPoint id="navPoint-29" playOrder="29">
+        <navLabel>
+          <text>Large Integers</text>
+        </navLabel>
+        <content src="Text/integer_arithmetic.xhtml#sigil_toc_id_22"/>
+      </navPoint>
+      <navPoint id="navPoint-30" playOrder="30">
+        <navLabel>
+          <text>Integer Addition</text>
+        </navLabel>
+        <content src="Text/integer_arithmetic.xhtml#sigil_toc_id_23"/>
+      </navPoint>
+      <navPoint id="navPoint-31" playOrder="31">
+        <navLabel>
+          <text>Integer Subtraction</text>
+        </navLabel>
+        <content src="Text/integer_arithmetic.xhtml#sigil_toc_id_24"/>
+      </navPoint>
+      <navPoint id="navPoint-32" playOrder="32">
+        <navLabel>
+          <text>Integer Multiplication</text>
+        </navLabel>
+        <content src="Text/integer_arithmetic.xhtml#sigil_toc_id_25"/>
+      </navPoint>
+      <navPoint id="navPoint-33" playOrder="33">
+        <navLabel>
+          <text>Integer Division</text>
+        </navLabel>
+        <content src="Text/integer_arithmetic.xhtml#sigil_toc_id_26"/>
+      </navPoint>
+      <navPoint id="navPoint-34" playOrder="34">
+        <navLabel>
+          <text>Linear Scaling</text>
+        </navLabel>
+        <content src="Text/integer_arithmetic.xhtml#sigil_toc_id_27"/>
+      </navPoint>
+      <navPoint id="navPoint-35" playOrder="35">
+        <navLabel>
+          <text>Selection of a Rational Best Approximation</text>
+        </navLabel>
+        <content src="Text/integer_arithmetic.xhtml#sigil_toc_id_28"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-36" playOrder="36">
+      <navLabel>
+        <text>Filters and Control System Elements</text>
+      </navLabel>
+      <content src="Text/filters_control_system_elements.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-37" playOrder="37">
+      <navLabel>
+        <text>Boolean Algebra</text>
+      </navLabel>
+      <content src="Text/boolean_algebra.xhtml"/>
+      <navPoint id="navPoint-38" playOrder="38">
+        <navLabel>
+          <text>Boolean Functions</text>
+        </navLabel>
+        <content src="Text/boolean_algebra.xhtml#sigil_toc_id_38"/>
+      </navPoint>
+      <navPoint id="navPoint-39" playOrder="39">
+        <navLabel>
+          <text>Algebraic Methods of Simplifying Boolean Functions</text>
+        </navLabel>
+        <content src="Text/boolean_algebra.xhtml#sigil_toc_id_39"/>
+      </navPoint>
+      <navPoint id="navPoint-40" playOrder="40">
+        <navLabel>
+          <text>Karnaugh Map Methods of Simplifying Boolean Functions</text>
+        </navLabel>
+        <content src="Text/boolean_algebra.xhtml#sigil_toc_id_40"/>
+      </navPoint>
+      <navPoint id="navPoint-41" playOrder="41">
+        <navLabel>
+          <text>The Scheinmann Method of Simplifying Boolean Functions</text>
+        </navLabel>
+        <content src="Text/boolean_algebra.xhtml#sigil_toc_id_41"/>
+      </navPoint>
+      <navPoint id="navPoint-42" playOrder="42">
+        <navLabel>
+          <text>Vertical Counters</text>
+        </navLabel>
+        <content src="Text/boolean_algebra.xhtml#sigil_toc_id_42"/>
+      </navPoint>
+      <navPoint id="navPoint-43" playOrder="43">
+        <navLabel>
+          <text>Simplification of Code Constructs</text>
+        </navLabel>
+        <content src="Text/boolean_algebra.xhtml#sigil_toc_id_43"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-44" playOrder="44">
+      <navLabel>
+        <text>Timed Automata</text>
+      </navLabel>
+      <content src="Text/timed_automata.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-45" playOrder="45">
+      <navLabel>
+        <text>Concurrency Bugs</text>
+      </navLabel>
+      <content src="Text/concurrency_bugs.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-46" playOrder="46">
+      <navLabel>
+        <text>State Space Bugs</text>
+      </navLabel>
+      <content src="Text/state_space_bugs.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-47" playOrder="47">
+      <navLabel>
+        <text>Insektengericht</text>
+      </navLabel>
+      <content src="Text/insektengericht.xhtml"/>
+      <navPoint id="navPoint-48" playOrder="48">
+        <navLabel>
+          <text>Hardware Register Race Conditions</text>
+        </navLabel>
+        <content src="Text/insektengericht.xhtml#sigil_toc_id_34"/>
+        <navPoint id="navPoint-49" playOrder="49">
+          <navLabel>
+            <text>TMS370C8 Interrupt Control Register</text>
+          </navLabel>
+          <content src="Text/insektengericht.xhtml#sigil_toc_id_35"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-50" playOrder="50">
+        <navLabel>
+          <text>Watchdogs</text>
+        </navLabel>
+        <content src="Text/insektengericht.xhtml#sigil_toc_id_36"/>
+        <navPoint id="navPoint-51" playOrder="51">
+          <navLabel>
+            <text>Marginal Timing</text>
+          </navLabel>
+          <content src="Text/insektengericht.xhtml#sigil_toc_id_37"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-52" playOrder="52">
+      <navLabel>
+        <text>Implementation of State Machines</text>
+      </navLabel>
+      <content src="Text/implementation_of_state_machines.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-53" playOrder="53">
+      <navLabel>
+        <text>Issues Related to C, C++, and Assembly-Language</text>
+      </navLabel>
+      <content src="Text/c_cpp_asm_languages.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-54" playOrder="54">
+      <navLabel>
+        <text>Coding Standards</text>
+      </navLabel>
+      <content src="Text/coding_standards.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-55" playOrder="55">
+      <navLabel>
+        <text>MISRA</text>
+      </navLabel>
+      <content src="Text/misra.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-56" playOrder="56">
+      <navLabel>
+        <text>Unit Testing and Code Coverage</text>
+      </navLabel>
+      <content src="Text/unit_testing_code_coverage.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-57" playOrder="57">
+      <navLabel>
+        <text>Analog to Digital Conversion</text>
+      </navLabel>
+      <content src="Text/a2d_conversion.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-58" playOrder="58">
+      <navLabel>
+        <text>Bad Management and Unpleasant Work Situations</text>
+      </navLabel>
+      <content src="Text/bad_management.xhtml"/>
+      <navPoint id="navPoint-59" playOrder="59">
+        <navLabel>
+          <text>Incompetence in Software</text>
+        </navLabel>
+        <content src="Text/bad_management.xhtml#sigil_toc_id_29"/>
+      </navPoint>
+      <navPoint id="navPoint-60" playOrder="60">
+        <navLabel>
+          <text>Workplace Bullying</text>
+        </navLabel>
+        <content src="Text/bad_management.xhtml#sigil_toc_id_30"/>
+      </navPoint>
+      <navPoint id="navPoint-61" playOrder="61">
+        <navLabel>
+          <text>Sexual Harrassment</text>
+        </navLabel>
+        <content src="Text/bad_management.xhtml#sigil_toc_id_31"/>
+      </navPoint>
+      <navPoint id="navPoint-62" playOrder="62">
+        <navLabel>
+          <text>Integrity and Misconduct Reporting Hotlines</text>
+        </navLabel>
+        <content src="Text/bad_management.xhtml#sigil_toc_id_32"/>
+      </navPoint>
+      <navPoint id="navPoint-63" playOrder="63">
+        <navLabel>
+          <text>Performance Reviews</text>
+        </navLabel>
+        <content src="Text/bad_management.xhtml#sigil_toc_id_33"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-64" playOrder="64">
+      <navLabel>
+        <text>References</text>
+      </navLabel>
+      <content src="Text/references.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-65" playOrder="65">
+      <navLabel>
+        <text>EMTS</text>
+      </navLabel>
+      <content src="Text/emts_tool.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>

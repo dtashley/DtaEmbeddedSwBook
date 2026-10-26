@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Mathematical Definitions</title>
+</head>
+
+<body>
+<h1>Mathematical Definitions</h1>
+
+<h2 id="sigil_toc_id_1">Mathematical Definitions</h2>
+
+<h3 id="sigil_toc_id_2">Use of Greek Letters</h3>
+
+<p>Greek letters are used as variable names
+throughout this book for two reasons:</p>
+<ul>
+  <li>There are not enough letters in the English
+  alphabet.</li>
+  <li>In some cases, certain quantities are
+  traditionally associated with a Greek
+  letter.</li>
+</ul>
+
+<p>
+The Greek alphabet contains upper- and lower-case
+letters that can look very different.
+For example, upper-case Omega is Ω, whereas
+lower-case omega is ω.
+For this reason, upper- and lower-case Greek
+letters are not used interchangeably to denote the
+same variable.
+</p>
+
+<h3 id="sigil_toc_id_3">Sets of Numbers</h3>
+
+<p>An integer is a whole number. The set of
+integers {…, -2, -1, 0, 1, 2, …} is denoted ℤ,
+while the set of non-negative integers {0, 1, 2,
+…}
+is denoted ℤ<sup>+</sup>, and the set of positive
+integers {1, 2, …} is denoted ℕ.</p>
+
+<p>A rational number is a ratio or fraction of two
+integers; for example, 2/3 or 121/3 or 0/1. The
+set
+of rational numbers is denoted ℚ, and the set of
+non-negative rational numbers is denoted
+ℚ<sup>+</sup>.</p>
+
+<p>A real number may have any value, such as 2,
+1.81427, 2/3, 0, π, or √2. The set of real numbers
+is denoted ℝ, and the set of non-negative real
+numbers is denoted ℝ<sup>+</sup>.</p>
+
+<h3 id="sigil_toc_id_4">Floor, Ceiling, and Round Functions</h3>
+
+<p>The floor of x, denoted ⌊x⌋, is the largest
+integer not larger than x. For example, ⌊−7⌋ = −7,
+⌊−3.2⌋ = −4, ⌊3⌋ = 3, and ⌊4.9⌋ = 4.</p>
+
+<p>The floor function as defined for negative
+arguments is not consistent with the way people
+often think during card counting calculations. I
+define ⌊x⌋* as a floor function that truncates
+toward 0 for negative numbers. For example, ⌊−7⌋*
+=
+−7, ⌊−3.2⌋* = −3, ⌊3⌋* = 3, and ⌊4.9⌋* = 4.</p>
+
+<p>The ceiling of x, denoted ⌈x⌉, is the smallest
+integer not smaller than x. For example, ⌈−7⌉ =
+−7,
+⌈−3.2⌉ = −3, ⌈3⌉ = 3, and ⌈4.9⌉ = 5.</p>
+
+<p>The ceiling function as defined for negative
+arguments is not consistent with the way people
+often think during card counting calculations. I
+define ⌈x⌉* as a ceiling function that rounds away
+from 0 for negative numbers. For example, ⌈−7⌉* =
+−7, ⌈−3.2⌉* = −4, ⌈3⌉* = 3, and ⌈4.9⌉* = 5.</p>
+
+<p>I define ⟨x⟩ to be a rounding function in which
+the half-value is rounded toward 0. For example,
+⟨−3.5001⟩ = −4, ⟨−3.5⟩ = −3, ⟨−3.4999⟩ = −3,
+⟨3.4999⟩ = 3, ⟨3.5⟩ = 3, and ⟨3.5001⟩ = 4.</p>
+
+<h3 id="sigil_toc_id_5">Matrices and Vectors</h3>
+
+<p>A matrix is a rectangular collection of
+integers, rational numbers, or real numbers. For
+example:</p>
+<div class="equation"><strong>m</strong> = [1, π,
+√41; 1.8, −9, 3/2; π^π, 2, 2^−2; 10, 0, 12]</div>
+
+<p>Variable names representing matrices are
+typeset
+in a bold font, such as <strong>m</strong> rather
+than m. Optionally, for clarity, the number of
+rows
+and columns in a matrix may be shown in a
+subscript.</p>
+
+<p>If a single element of a matrix is identified,
+the row is specified first and then the column.
+For
+example, m<sub>3,1</sub> = π^π.</p>
+
+<p>A vector is a matrix with only one row or one
+column. A matrix with only one row is called a row
+vector, and a matrix with only one column is
+called
+a column vector. Vectors are denoted by a variable
+name with an arrow above it.</p>
+
+<div class="equation">p⃗ = [−99, π^2,
+√(3/2)]</div>
+<div class="equation">q⃗ = [−1; 3.29; π^3;
+101]</div>
+
+<p>A single element of a row vector or column
+vector may be identified using one or two
+subscripts. For example, p<sub>1,3</sub> =
+p<sub>3</sub> = √(3/2), and q<sub>3,1</sub> =
+q<sub>3</sub> = π^3.</p>
+
+<h3 id="sigil_toc_id_6">Matrix Operations</h3>
+
+<p>A matrix with its rows and columns transposed
+may be identified with a T subscript. With
+reference to the matrix above:</p>
+<div class="equation"><strong>m</strong><sup>T</sup> =
+[1, 1.8, π^π, 10; π, −9, 2, 0; √41, 3/2, 2^−2,
+12]</div>
+
+<p>A transposed row vector is a column vector, and
+vice versa.</p>
+
+<p>Matrices with the same number of rows and
+columns may be added or subtracted by adding or
+subtracting each element. For example:</p>
+<div class="equation">[1, 2; 3, 4; 5, 6; 7, 8] +
+[9, 10; 11, 12; 13, 14; 15, 16] − [17, 18; 19, 20;
+21, 22; 23, 24] = [−7, −6; −5, −4; −3, −2; −1,
+0]</div>
+
+<p>Matrices may be multiplied by a real number by
+multiplying each element. For example:</p>
+<div class="equation">2 × [17, 18; 19, 20; 21, 22;
+23, 24] = [34, 36; 38, 40; 42, 44; 46, 48]</div>
+
+<p>Two matrices A<sub>m,n</sub> and
+B<sub>n,p</sub>
+may be multiplied to form the matrix
+C<sub>m,p</sub> = A<sub>m,n</sub> ×
+B<sub>n,p</sub>. This requires that the number of
+columns in A equals the number of rows in B.</p>
+
+<h2 id="sigil_toc_id_7"><br/></h2>
+</body>
+</html>
